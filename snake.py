@@ -184,6 +184,7 @@ while True:
 
         # Increase the score
         score += 10
+        ser.write(b'A')
 
         if score > high_score:
             high_score = score
