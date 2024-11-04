@@ -14,7 +14,7 @@ import serial
 # Note the serial port dev file name
 # need to change based on the particular host machine
 # TODO uncomment the following two lines to initialize serial port
-serialDevFile = 'COM7'
+serialDevFile = 'COM8'
 ser = serial.Serial(serialDevFile, 9600, timeout=0)
 
 delay = 0.1
